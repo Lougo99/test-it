@@ -15,7 +15,7 @@ import org.mockito.Mockito;
 
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BookServiceTest {
     BookService bookService;
@@ -46,6 +46,6 @@ public class BookServiceTest {
 
         Book result = bookService.borrowBook(book1.getId(),member1.getId());
 
-        assertFalse(result.getStatus()==Status.DISPONIBLE,"Livre bien emprunte");
+        assertSame(Status.EMPRUNTE, result.getStatus());
     }
 }
