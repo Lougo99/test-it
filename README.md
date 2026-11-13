@@ -1,3 +1,7 @@
+Louis Dodin
+
+Remarque : Il n'y a pas de mail envoyé lorsqu'un livre est emprunté.
+
 # Test It - Prêt de livres
 
 API REST Spring Boot (Java 25) de prêt de livres pour une bibliothèque.
