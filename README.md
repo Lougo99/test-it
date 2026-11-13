@@ -71,7 +71,7 @@ Dans l'ordre que vous voulez, un test par idée :
 - **Personne n'est connecté** et on emprunte un livre : que se passe-t-il ?
 - **Validation** : `POST /books` avec un titre ou un auteur vide.
 - **TDD** : écrivez le test d'abord, regardez-le échouer, puis corrigez le code.
-- **Fake plutôt que mock** : remplacez le mock de `MailService` par un fake qui garde les mails envoyés dans une liste.
+- **Fake plutôt que mock** : remplacez le mock de `MailServiceTest` par un fake qui garde les mails envoyés dans une liste.
 
 ## Conseils
 
